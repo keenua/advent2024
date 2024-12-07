@@ -1,5 +1,5 @@
 from typing import Counter
-from part1 import read_file
+from day1_part1 import read_file
 
 
 def similarity_score(file_path: str) -> int:
