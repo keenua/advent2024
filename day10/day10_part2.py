@@ -1,7 +1,6 @@
 from day10_part1 import get_trailheads, read_file
 from typing import List, Tuple, Set
 
-
 def get_trailhead_rating(
     data: List[List[int]], trailhead: Tuple[int, int], prev_value: int = -1
 ) -> int:
